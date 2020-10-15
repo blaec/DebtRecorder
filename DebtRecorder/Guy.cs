@@ -8,6 +8,7 @@ namespace DebtRecorder
     /// <summary>
     /// A guy with a name, age and a wallet full of bucks
     /// </summary>
+    [Serializable]
     class Guy
     {
         public string Name;
